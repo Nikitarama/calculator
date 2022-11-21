@@ -1,0 +1,19 @@
+.container {
+    margin: 100px;
+    padding:30px;
+    background: grey;
+    border: 1px solid black;
+    justify-content: center;
+    width: fit-content;
+} 
+
+button:hover {
+    background-color: pink;
+    color:aliceblue;
+}
+
+.row0 {
+    border: 2px solid black;
+    background:white;
+    height:50px;
+}
