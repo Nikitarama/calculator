@@ -1,19 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, cyan, black)
+}
+
 .container {
     margin: 100px;
     padding:30px;
     background: grey;
-    border: 1px solid black;
+    border: 2px solid black;
     justify-content: center;
     width: fit-content;
 } 
 
 button:hover {
-    background-color: pink;
+    background-color: blue;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease-in-out;
     color:aliceblue;
 }
 
 .row0 {
     border: 2px solid black;
     background:white;
-    height:50px;
+    height:100px;
+}
+
+.srcDisplay {
+    text-align: right;
+}
+
+.buttons 
+
+.calDisplay {
+    padding:0;
+    overflow:hidden;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    height:45px;
+    background-color: rgb(231, 223, 223);
 }
