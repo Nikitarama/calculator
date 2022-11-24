@@ -6,11 +6,11 @@ function display(num){
 }
 function allClear(){
     scrDisplay.innerHTML = '';
-    calDisplay.innerHTML = '0';
+    calDisplay.innerHTML = '';
 }
 
 function del(){
-    scrDisplay.innerText = scrDisplay.innerText.slice(0.-1);
+    scrDisplay.innerText = scrDisplay.innerText.slice(-1);
 }
 
 function calculate(){
