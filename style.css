@@ -27,9 +27,14 @@ button:hover {
 }
 
 button{
-    border-radius: 10px;
+    border-radius: 20px;
     height: 50px;
     width: 45px;
+}
+
+#btn {
+    background: rgb(85, 85, 85);
+    width:100px;
 }
 
 .output {
