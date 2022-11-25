@@ -10,7 +10,7 @@ function allClear(){
 }
 
 function del(){
-    scrDisplay.innerText = scrDisplay.innerText.slice(-1);
+    scrDisplay.innerText = scrDisplay.innerText.slice(0,-1);
 }
 
 function calculate(){
