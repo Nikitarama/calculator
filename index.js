@@ -16,3 +16,13 @@ function del(){
 function calculate(){
     calDisplay.innerHTML = eval(scrDisplay.innerText);
 }
+
+function numChecker() {
+
+if (numChecker.includes(`.`)) {
+    input.innerText = input.innerText;
+} else {
+    input.innerText += e.target.innerText
+        numChecker.push('.')
+    }
+}
