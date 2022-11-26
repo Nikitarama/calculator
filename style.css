@@ -33,7 +33,7 @@ button{
     border-radius: 20px;
     height: 50px;
     width: 50px;
-    border: 1px solid white;
+    border: 1px solid grey;
 }
 
 #btn {
@@ -51,6 +51,8 @@ button{
 .scrDisplay {
     text-align: right;
     margin: 0;
+    word-wrap:break-word;
+    word-break: break-all;
 }
 
 .calDisplay {
@@ -58,4 +60,25 @@ button{
     margin: 0;
     text-align: right;
     word-wrap:break-word;
+    word-break: break-all;
 }
+
+@media screen and (max-width: 300px){
+    .container {
+        scale:0.1;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .container {
+        scale: 0.5;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .container {
+        scale:0.9;
+    }
+}
+
+
